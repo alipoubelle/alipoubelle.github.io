@@ -2,14 +2,13 @@
 <html>
 
 <head>
-    <title>alipoubelle</title>
+    <title>alipoubelle.com | Fine Art and Community Art</title>
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Muli|Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 
 <body>
-    <button onclick="change()" id="swap">Swap</button>
     <div class="maintenance-box page-breaker">
         <img class="maintenance-image" src="images/maintenance.jpg" alt="maintenance" />
         <div class="maintenance-title">New website coming soon!</div>
@@ -25,35 +24,6 @@
         <h3 class="contact-name">Ali Allen</h3>
         <a class="contact-email" href="mailto:alipoubelle5@gmail.com">alipoubelle5@gmail.com</a>
     </main>
-
-    <script>
-        window.font = "muli"
-        var btn = document.querySelector("#swap");
-
-        if (window.font === "muli") {
-            document.body.className = "poppins"
-            window.font = "poppins"
-        }
-        else {
-            document.body.className = "muli"
-            window.font = "muli"
-        }
-
-        btn.innerHTML = "Change to: " + window.font;
-
-        function change() {
-            if (window.font === "muli") {
-                document.body.className = "poppins"
-                window.font = "poppins"
-            }
-            else {
-                document.body.className = "muli"
-                window.font = "muli"
-            }
-
-            btn.innerHTML = "Change to: " + window.font;
-        }
-    </script>
 </body>
 
 </html>
