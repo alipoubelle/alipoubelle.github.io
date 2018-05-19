@@ -1,0 +1,23 @@
+{
+  "name": "alipoubelle.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite" : "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipoubelle/alipoubelle.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alipoubelle/alipoubelle.github.io/issues"
+  },
+  "homepage": "https://github.com/alipoubelle/alipoubelle.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
