@@ -6,9 +6,17 @@ html, body {
     font-size: 14px;
     margin: 0 auto;
     text-rendering: optimizeLegibility;
-    font-family: Neuzeit, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;   
     background: #fdfdfd;
     color: #232323;
+}
+
+.muli {
+    font-family: 'Muli', sans-serif;  
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;    
 }
 
 body {
