@@ -63,6 +63,28 @@ main.content {
     margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+    body {
+        padding: 25px;
+    }
+
+    .page-breaker {
+        width: 100%;
+    }
+
+    .maintenance-image {
+        width: 100%;
+    }
+
+    main.content {
+        width: 100%;
+    }
+
+    .maintenance-title {
+        font-size: 25px;
+    }
+}
+
 @font-face {
     font-family: Neuzeit;
     src: url(/fonts/Neuzeit-Grotesk-Light.otf);
